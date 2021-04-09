@@ -1,5 +1,19 @@
 # Maven PiTest Quick Start
-## Installation
+PIT is a state of the art **mutation testing** framework that provides **industry-leading research coverage** for Java and the **jvm**. It's fast, scalable, and works with today's test and construct tools [pitest.org](https://pitest.org/).
+***
+#### why Pitest?
+    "There are other mutation testing systems for Java, but they are not widely used.
+     
+     They are mostly slow, difficult to use and written to meet the needs of academic research rather than
+      real development teams.
+     
+     PIT is different. It's
+     
+     fast - can analyse in minutes what would take earlier systems days
+     easy to use - works with ant, maven, gradle and others
+     actively developed
+     actively supported" 
+More look ups go to  [pitest.org](https://pitest.org/) 
 ## PIT is available from [maven central](https://search.maven.org/search?q=a:pitest-maven).
  ## Preparing the project
  ## Prerequisites
@@ -186,8 +200,8 @@ The results should similar to
                    1. Project language level
                         1. Select 8-Lambdas, type annotations etc.
 ***
-### Run again MyPITRunner
-#### You should something similar to 
+### MyPITRunner
+#### You should see something similar to 
     12:43:01 PIT >> INFO : Verbose logging is disabled. If you encounter an problem please enable it before reporting an issue.
     12:43:01 PIT >> INFO : Sending 2 test classes to minion
     12:43:01 PIT >> INFO : Sent tests to minion
