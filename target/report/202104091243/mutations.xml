@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mutations>
-<mutation detected='false' status='NO_COVERAGE' numberOfTestsRun='0'><sourceFile>App.java</sourceFile><mutatedClass>com.app.App</mutatedClass><mutatedMethod>main</mutatedMethod><methodDescription>([Ljava/lang/String;)V</methodDescription><lineNumber>11</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator</mutator><index>5</index><block>1</block><killingTest/><description>removed call to java/io/PrintStream::println</description></mutation>
-</mutations>
