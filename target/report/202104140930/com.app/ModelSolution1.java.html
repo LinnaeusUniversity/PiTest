@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>ModelSolution1.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1d119efb_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1d119efb_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.app;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1d119efb_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1d119efb_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1d119efb_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1d119efb_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class ModelSolution1 {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1d119efb_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1d119efb_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public int add(int a, int b) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1d119efb_5'/>
+5
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1d119efb_5'>2</a>
+<span>
+
+1. add : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+2. add : replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return a + b;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1d119efb_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1d119efb_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1d119efb_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1d119efb_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1d119efb_5'>5</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1d119efb_5'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>com.app.ModelSolution1Test.testCase_12(com.app.ModelSolution1Test)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>add<br/><b>Killed by : </b>com.app.ModelSolution1Test.testCase_12(com.app.ModelSolution1Test)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.app.ModelSolution1Test.testCase_6(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_18(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_14(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_16(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_10(com.app.ModelSolution1Test) (2 ms)</li><li>com.app.ModelSolution1Test.testCase_12(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_2(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_8(com.app.ModelSolution1Test) (2 ms)</li><li>com.app.ModelSolution1Test.testCase_4(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_17(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_7(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_13(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_15(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_11(com.app.ModelSolution1Test) (2 ms)</li><li>com.app.ModelSolution1Test.testCase_1(com.app.ModelSolution1Test) (19 ms)</li><li>com.app.ModelSolution1Test.testCase_9(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_3(com.app.ModelSolution1Test) (1 ms)</li><li>com.app.ModelSolution1Test.testCase_5(com.app.ModelSolution1Test) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.4.3
+
+</body>
+</html>

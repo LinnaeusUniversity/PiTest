@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.app.AppTest
+Test set: com.app.ModelSolution1Test
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in com.app.AppTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.app.ModelSolution1Test

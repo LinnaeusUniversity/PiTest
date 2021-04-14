@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.app.AppTest" time="0.036" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.app.ModelSolution1Test" time="0.047" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\rashi\AppData\Local\Temp\surefire4434987512204678286\surefirebooter915919048345843435.jar C:\Users\rashi\AppData\Local\Temp\surefire4434987512204678286 2021-04-09T13-18-02_287-jvmRun1 surefire2284233808244962883tmp surefire_03710736995207370747tmp"/>
+    <property name="sun.java.command" value="C:\Users\rashi\AppData\Local\Temp\surefire5587992073839931022\surefirebooter636390771807641929.jar C:\Users\rashi\AppData\Local\Temp\surefire5587992073839931022 2021-04-14T09-30-14_688-jvmRun1 surefire2577805541254677396tmp surefire_07711164059916253502tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\rashi\Desktop\Thesis\PiTest\target\test-classes;C:\Users\rashi\Desktop\Thesis\PiTest\target\classes;C:\Users\rashi\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\rashi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rashi"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\rashi\AppData\Local\Temp\surefire4434987512204678286\surefirebooter915919048345843435.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rashi\AppData\Local\Temp\surefire5587992073839931022\surefirebooter636390771807641929.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -54,7 +54,8 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="user.language.format" value="sv"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\PYTHON38\SCRIPTS\;C:\PYTHON38\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\WINDOWS\SYSTEM32\OPENSSH\;C:\CYGWIN64\BIN;C:\PROGRAM FILES\SOURCEGEAR\COMMON\DIFFMERGE\;C:\PROGRAMDATA\CHOCOLATEY\BIN;C:\PROGRAM FILES\GIT\CMD;C:\PROGRAM FILES\GIT\MINGW64\BIN;C:\PROGRAM FILES\GIT\USR\BIN;C:\PROGRAM FILES\DOTNET\;C:\Program Files\ASUS\Bluetooth Software\;C:\Program Files\ASUS\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Calibre2\;C:\Program Files\MavenJar\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\rashi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\rashi\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rashi\.dotnet\tools;C:\Users\rashi\AppData\Local\Microsoft\WindowsApps;C:\Users\rashi\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.2\bin;C:\Program Files\sqlite-tools-win32-x86-3340100;."/>
+    <property name="idea.version2019.3.5" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\PYTHON38\SCRIPTS\;C:\PYTHON38\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\WINDOWS\SYSTEM32\OPENSSH\;C:\CYGWIN64\BIN;C:\PROGRAM FILES\SOURCEGEAR\COMMON\DIFFMERGE\;C:\PROGRAMDATA\CHOCOLATEY\BIN;C:\PROGRAM FILES\GIT\CMD;C:\PROGRAM FILES\GIT\MINGW64\BIN;C:\PROGRAM FILES\GIT\USR\BIN;C:\PROGRAM FILES\DOTNET\;C:\Program Files\ASUS\Bluetooth Software\;C:\Program Files\ASUS\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Calibre2\;C:\Program Files\MavenJar\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\rashi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\rashi\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rashi\.dotnet\tools;C:\Users\rashi\AppData\Local\Microsoft\WindowsApps;C:\Users\rashi\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.2\bin;;C:\Program Files\sqlite-tools-win32-x86-3340100;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\MavenJar\apache-maven-3.6.3\bin;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.281-b09"/>
@@ -62,7 +63,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="add_case_1" classname="com.app.AppTest" time="0.004"/>
-  <testcase name="add_case_2" classname="com.app.AppTest" time="0"/>
-  <testcase name="add_case_3" classname="com.app.AppTest" time="0"/>
+  <testcase name="testCase_10" classname="com.app.ModelSolution1Test" time="0.003"/>
+  <testcase name="testCase_11" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_12" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_13" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_14" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_15" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_16" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_17" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_18" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_1" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_2" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_3" classname="com.app.ModelSolution1Test" time="0.001"/>
+  <testcase name="testCase_4" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_5" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_6" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_7" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_8" classname="com.app.ModelSolution1Test" time="0"/>
+  <testcase name="testCase_9" classname="com.app.ModelSolution1Test" time="0.001"/>
 </testsuite>

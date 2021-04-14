@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mutations>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>App.java</sourceFile><mutatedClass>com.app.App</mutatedClass><mutatedMethod>add</mutatedMethod><methodDescription>(II)I</methodDescription><lineNumber>10</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.MathMutator</mutator><index>5</index><block>1</block><killingTest>com.app.AppTest.add_case_2(com.app.AppTest)</killingTest><description>Replaced integer addition with subtraction</description></mutation>
-<mutation detected='true' status='KILLED' numberOfTestsRun='1'><sourceFile>App.java</sourceFile><mutatedClass>com.app.App</mutatedClass><mutatedMethod>add</mutatedMethod><methodDescription>(II)I</methodDescription><lineNumber>10</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator</mutator><index>6</index><block>1</block><killingTest>com.app.AppTest.add_case_2(com.app.AppTest)</killingTest><description>replaced return of integer sized value with (x == 0 ? 1 : 0)</description></mutation>
-</mutations>
